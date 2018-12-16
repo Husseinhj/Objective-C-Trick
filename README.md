@@ -12,7 +12,7 @@ Class class = NSClassFromString(className);
 For example we want to call `synchronize` method of `NSUserDefaults` class with reflection:
 
 ```objective-c
-- (BOOL) isUserDefaultSynchronize {
+- (BOOL) synchronizeUserDefault {
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Warc-performSelector-leaks"
     Class classUserDefault = NSClassFromString(@"NSUserDefaults");
