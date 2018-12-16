@@ -9,7 +9,7 @@ To gain access to a class with string name use this:
 Class class = NSClassFromString(className);
 ```
 
-For example we want to call `synchronize` method of `NSUserDefault` class with reflection:
+For example we want to call `synchronize` method of `NSUserDefaults` class with reflection:
 
 ```objective-c
 - (BOOL) isUserDefaultSynchronize {
