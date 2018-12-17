@@ -1,4 +1,4 @@
-# Objective-C-Trick
+# Objective-C tips
 This repository contain some of great tricks for Objective-C language i've learn in great repository and documents.
 
 ## Reflection
